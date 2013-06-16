@@ -27,10 +27,8 @@
     // スクロールビューのコンテンツサイズを設定する
     imageScrollView.contentSize = self.imageView.frame.size;
     
-    // UIScrollViewのデリゲート設定
-    imageScrollView.delegate = self;
     // ズームの最大値、最小値を設定する
-    imageScrollView.maximumZoomScale = 4.0;
+    imageScrollView.maximumZoomScale = 10.0;
     imageScrollView.minimumZoomScale = 0.3125;
     
 }
@@ -44,7 +42,7 @@
 - (IBAction)openButton:(id)sender {
     
     // ハンドルから画像ファイルを読み込んでUIImageのオブジェクトを作成
-    UIImage * image = [UIImage imageNamed:@"image"];
+    UIImage * image = [UIImage imageNamed:@"shibasaki.jpg"];
     
     // プロパティに設定
     imageView.image = image;
