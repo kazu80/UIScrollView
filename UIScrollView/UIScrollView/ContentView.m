@@ -28,6 +28,11 @@
     [self setNeedsDisplay];
 }
 
+/* いつどのようにdrawRectは呼ばれるか？
+通常、UIViewはCALayerのdelegateであり、アニメーションなど表示更新のタイミングでdelegateメソッドを呼び出し、UIViewに実装されている
+delegateメソッドdrawLayer:inContext:メソッドが呼び出される。drawLayer:inContext:メソッドは、デフォルトでdrawRectを呼び出す。
+つまり、ユーザ定義でサブクラス内でdrawLayer:inContext:メソッドを実装していない場合、単純にdrawRectが呼ばれる。
+*/
 - (void) drawRect:(CGRect)rect
 {
     [image drawInRect:rect];

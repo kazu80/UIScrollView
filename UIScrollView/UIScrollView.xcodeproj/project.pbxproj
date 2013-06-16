@@ -20,6 +20,8 @@
 		FC333A00176AC7BA00FDBB4B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3339FE176AC7BA00FDBB4B /* ViewController.xib */; };
 		FC333A0B176ACCB600FDBB4B /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0A176ACCB600FDBB4B /* ContentView.m */; };
 		FC333A0D176ADADC00FDBB4B /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FC333A0C176ADADC00FDBB4B /* image.png */; };
+		FC3E3569176E186E0063719E /* CustomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3E3568176E186E0063719E /* CustomScrollView.m */; };
+		FC3E356B176E208F0063719E /* shibasaki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC3E356A176E208F0063719E /* shibasaki.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		FC333A09176ACCB600FDBB4B /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
 		FC333A0A176ACCB600FDBB4B /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
 		FC333A0C176ADADC00FDBB4B /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		FC3E3567176E186E0063719E /* CustomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomScrollView.h; sourceTree = "<group>"; };
+		FC3E3568176E186E0063719E /* CustomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomScrollView.m; sourceTree = "<group>"; };
+		FC3E356A176E208F0063719E /* shibasaki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shibasaki.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,7 @@
 		FC3339E9176AC7BA00FDBB4B /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				FC3E356A176E208F0063719E /* shibasaki.jpg */,
 				FC333A0C176ADADC00FDBB4B /* image.png */,
 				FC333A09176ACCB600FDBB4B /* ContentView.h */,
 				FC333A0A176ACCB600FDBB4B /* ContentView.m */,
@@ -95,6 +101,8 @@
 				FC3339F3176AC7BA00FDBB4B /* AppDelegate.m */,
 				FC3339FB176AC7BA00FDBB4B /* ViewController.h */,
 				FC3339FC176AC7BA00FDBB4B /* ViewController.m */,
+				FC3E3567176E186E0063719E /* CustomScrollView.h */,
+				FC3E3568176E186E0063719E /* CustomScrollView.m */,
 				FC3339FE176AC7BA00FDBB4B /* ViewController.xib */,
 				FC3339EA176AC7BA00FDBB4B /* Supporting Files */,
 			);
@@ -172,6 +180,7 @@
 				FC3339FA176AC7BA00FDBB4B /* Default-568h@2x.png in Resources */,
 				FC333A00176AC7BA00FDBB4B /* ViewController.xib in Resources */,
 				FC333A0D176ADADC00FDBB4B /* image.png in Resources */,
+				FC3E356B176E208F0063719E /* shibasaki.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +195,7 @@
 				FC3339F4176AC7BA00FDBB4B /* AppDelegate.m in Sources */,
 				FC3339FD176AC7BA00FDBB4B /* ViewController.m in Sources */,
 				FC333A0B176ACCB600FDBB4B /* ContentView.m in Sources */,
+				FC3E3569176E186E0063719E /* CustomScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +318,7 @@
 				FC333A05176AC7BA00FDBB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

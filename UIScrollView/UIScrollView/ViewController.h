@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "ContentView.h"
+#import "CustomScrollView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIScrollViewDelegate>
 
 @property (strong, nonatomic) ContentView *imageView;
-@property (weak, nonatomic) IBOutlet UIScrollView *imageScrollView;
+@property (weak, nonatomic) IBOutlet CustomScrollView *imageScrollView;
 
 
 - (IBAction)openButton:(id)sender;
