@@ -23,7 +23,15 @@
     
     self.imageView = [[ContentView alloc] initWithFrame:CGRectMake(0, 0, 1024, 1024)];
     [imageScrollView addSubview:imageView];
+    
+    // スクロールビューのコンテンツサイズを設定する
     imageScrollView.contentSize = self.imageView.frame.size;
+    
+    // UIScrollViewのデリゲート設定
+    imageScrollView.delegate = self;
+    // ズームの最大値、最小値を設定する
+    imageScrollView.maximumZoomScale = 4.0;
+    imageScrollView.minimumZoomScale = 0.3125;
     
 }
 
@@ -42,4 +50,10 @@
     imageView.image = image;
     
 }
+
+- (UIView *) viewForZoomingInScrollView:(UIScrollView *)scrollView
+{
+    return imageView;
+}
+
 @end

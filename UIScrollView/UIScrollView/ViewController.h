@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ContentView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIScrollViewDelegate>
 
 @property (strong, nonatomic) ContentView *imageView;
 @property (weak, nonatomic) IBOutlet UIScrollView *imageScrollView;
