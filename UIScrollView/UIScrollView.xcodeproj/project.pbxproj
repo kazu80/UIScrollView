@@ -18,6 +18,8 @@
 		FC3339FA176AC7BA00FDBB4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3339F9176AC7BA00FDBB4B /* Default-568h@2x.png */; };
 		FC3339FD176AC7BA00FDBB4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3339FC176AC7BA00FDBB4B /* ViewController.m */; };
 		FC333A00176AC7BA00FDBB4B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3339FE176AC7BA00FDBB4B /* ViewController.xib */; };
+		FC333A0B176ACCB600FDBB4B /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC333A0A176ACCB600FDBB4B /* ContentView.m */; };
+		FC333A0D176ADADC00FDBB4B /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FC333A0C176ADADC00FDBB4B /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		FC3339FB176AC7BA00FDBB4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FC3339FC176AC7BA00FDBB4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC3339FF176AC7BA00FDBB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FC333A09176ACCB600FDBB4B /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		FC333A0A176ACCB600FDBB4B /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		FC333A0C176ADADC00FDBB4B /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,9 @@
 		FC3339E9176AC7BA00FDBB4B /* UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				FC333A0C176ADADC00FDBB4B /* image.png */,
+				FC333A09176ACCB600FDBB4B /* ContentView.h */,
+				FC333A0A176ACCB600FDBB4B /* ContentView.m */,
 				FC3339F2176AC7BA00FDBB4B /* AppDelegate.h */,
 				FC3339F3176AC7BA00FDBB4B /* AppDelegate.m */,
 				FC3339FB176AC7BA00FDBB4B /* ViewController.h */,
@@ -163,6 +171,7 @@
 				FC3339F8176AC7BA00FDBB4B /* Default@2x.png in Resources */,
 				FC3339FA176AC7BA00FDBB4B /* Default-568h@2x.png in Resources */,
 				FC333A00176AC7BA00FDBB4B /* ViewController.xib in Resources */,
+				FC333A0D176ADADC00FDBB4B /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				FC3339F0176AC7BA00FDBB4B /* main.m in Sources */,
 				FC3339F4176AC7BA00FDBB4B /* AppDelegate.m in Sources */,
 				FC3339FD176AC7BA00FDBB4B /* ViewController.m in Sources */,
+				FC333A0B176ACCB600FDBB4B /* ContentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

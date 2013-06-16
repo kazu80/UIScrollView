@@ -13,11 +13,18 @@
 @end
 
 @implementation ViewController
+@synthesize imageView;
+@synthesize imageScrollView;
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.imageView = [[ContentView alloc] initWithFrame:CGRectMake(0, 0, 1024, 1024)];
+    [imageScrollView addSubview:imageView];
+    imageScrollView.contentSize = self.imageView.frame.size;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +33,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)openButton:(id)sender {
+    
+    // ハンドルから画像ファイルを読み込んでUIImageのオブジェクトを作成
+    UIImage * image = [UIImage imageNamed:@"image"];
+    
+    // プロパティに設定
+    imageView.image = image;
+    
+}
 @end

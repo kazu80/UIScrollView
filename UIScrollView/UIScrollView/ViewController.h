@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ContentView.h"
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) ContentView *imageView;
+@property (weak, nonatomic) IBOutlet UIScrollView *imageScrollView;
+
+
+- (IBAction)openButton:(id)sender;
 
 @end
